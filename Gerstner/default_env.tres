@@ -1,0 +1,21 @@
+[gd_resource type="Environment" load_steps=2 format=2]
+
+[sub_resource type="ProceduralSky" id=1]
+
+[resource]
+background_mode = 1
+background_sky = SubResource( 1 )
+background_sky_orientation = Basis( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08 )
+background_sky_rotation = Vector3( -1.5708, 0, 0 )
+background_sky_rotation_degrees = Vector3( -90, 0, 0 )
+background_color = Color( 0.541176, 0.843137, 0.980392, 1 )
+background_energy = 0.01
+ambient_light_color = Color( 0.894118, 0.960784, 0.968627, 1 )
+ambient_light_energy = 0.01
+fog_depth_begin = 100.0
+fog_depth_end = 200.0
+dof_blur_far_enabled = true
+dof_blur_far_distance = 20.0
+dof_blur_far_transition = 30.0
+dof_blur_far_amount = 0.08
+dof_blur_far_quality = 2
